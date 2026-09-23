@@ -24,3 +24,5 @@ jobs:
 
       - name: Executar testes
         run: python -m pytest
+        uses: actions/setup-python@v5
+        python -m pip install pytest  
