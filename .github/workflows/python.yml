@@ -23,4 +23,5 @@ jobs:
         run: python -m pip install pytest
 
       - name: Executar testes
+        working-directory: ./TaskFlow
         run: python -m pytest
